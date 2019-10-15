@@ -1,0 +1,19 @@
+{
+  "name": "algorithm-brushup",
+  "version": "1.0.0",
+  "description": "## personal review of algorithms",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeldmyers/algorithm-brushup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joeldmyers/algorithm-brushup/issues"
+  },
+  "homepage": "https://github.com/joeldmyers/algorithm-brushup#readme"
+}

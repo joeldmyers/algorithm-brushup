@@ -8,11 +8,9 @@ const uniqueSort = (array) => {
   const memo = {};
   array.forEach((item) => {
     memo[item] = true;
-    return;
   });
-  console.log(Object.keys(memo));
   return Object.keys(memo).sort((a,b) => a - b);
 }
 
-uniqueSort([1,5,2,1]);
-uniqueSort([4,2,2,3,2,2,2]);
+
+module.exports = uniqueSort;

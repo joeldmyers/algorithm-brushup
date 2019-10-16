@@ -2,4 +2,4 @@
 
 ## personal review of algorithms
 
-### To run tests (using Jest), use `npm test`
+To run tests (using Jest), use `npm test`

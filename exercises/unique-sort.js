@@ -7,7 +7,9 @@
 const uniqueSort = (array) => {
   const memo = {};
   array.forEach((item) => {
-    memo[item] = true;
+    if (!memo[item]) {
+      memo[item] = true;
+    }
   });
   return Object.keys(memo).sort((a,b) => a - b);
 }
